@@ -127,7 +127,7 @@ with tab1:
     st.plotly_chart(fig3, theme='streamlit', use_container_width=True)
 
 
-    st.subheader('Qualidade vs Quantidade (Ensaios clínicos)')
+    st.subheader('Qualidade vs Quantidade (Ensaios Clínicos)')
 
     fig4 = make_subplots(rows=2, cols=1,
                         subplot_titles=("Quantidade por década","Nota Escala PEDro (Mediana)"))
@@ -154,7 +154,7 @@ with tab1:
 
     st.text("")
     st.header('Interesse de pesquisa')
-    st.subheader('Ensaios clínicos (1990-2022)')
+    st.subheader('Ensaios Clínicos (1990-2022)')
     st.video(cervicalgia_vd)
 
 
@@ -210,7 +210,7 @@ with tab2:
     st.plotly_chart(fig3, theme='streamlit', use_container_width=True)
 
 
-    st.subheader('Qualidade vs Quantidade (Ensaios clínicos)')
+    st.subheader('Qualidade vs Quantidade (Ensaios Clínicos)')
 
     fig4 = make_subplots(rows=2, cols=1,
                         subplot_titles=("Quantidade por década","Nota Escala PEDro (Mediana)"))
@@ -238,7 +238,7 @@ with tab2:
 
     st.text("")
     st.header('Interesse de pesquisa')
-    st.subheader('Ensaios clínicos (1980-2022)')
+    st.subheader('Ensaios Clínicos (1980-2022)')
     st.video(lombalgia_vd)
 
 
@@ -293,7 +293,7 @@ with tab3:
     st.plotly_chart(fig3, theme='streamlit', use_container_width=True)
 
 
-    st.subheader('Qualidade vs Quantidade (Ensaios clínicos)')
+    st.subheader('Qualidade vs Quantidade (Ensaios Clínicos)')
 
     fig4 = make_subplots(rows=2, cols=1,
                         subplot_titles=("Quantidade por década","Nota Escala PEDro (Mediana)"))
@@ -321,7 +321,7 @@ with tab3:
 
     st.text("")
     st.header('Interesse de pesquisa')
-    st.subheader('Ensaios clínicos (1990-2022)')
+    st.subheader('Ensaios Clínicos (1990-2022)')
     st.video(dor_ombro_vd)
     
     
@@ -376,7 +376,7 @@ with tab4:
     st.plotly_chart(fig3, theme='streamlit', use_container_width=True)
 
 
-    st.subheader('Qualidade vs Quantidade (Ensaios clínicos)')
+    st.subheader('Qualidade vs Quantidade (Ensaios Clínicos)')
 
     fig4 = make_subplots(rows=2, cols=1,
                         subplot_titles=("Quantidade por década","Nota Escala PEDro (Mediana)"))
@@ -403,7 +403,7 @@ with tab4:
 
     st.text("")
     st.header('Interesse de pesquisa')
-    st.subheader('Ensaios clínicos (1990-2022)')
+    st.subheader('Ensaios Clínicos (1990-2022)')
     st.video(oa_joelho_vd)
 
 
@@ -459,7 +459,7 @@ with tab5:
     st.plotly_chart(fig3, theme='streamlit', use_container_width=True)
 
 
-    st.subheader('Qualidade vs Quantidade (Ensaios clínicos)')
+    st.subheader('Qualidade vs Quantidade (Ensaios Clínicos)')
 
     fig4 = make_subplots(rows=2, cols=1,
                         subplot_titles=("Quantidade por década","Nota Escala PEDro (Mediana)"))
@@ -487,7 +487,7 @@ with tab5:
 
     st.text("")
     st.header('Interesse de pesquisa')
-    st.subheader('Ensaios clínicos (1990-2022)')
+    st.subheader('Ensaios Clínicos (1990-2022)')
     st.video(dor_tornozelo_vd)
     
 
@@ -542,7 +542,7 @@ with tab6:
     st.plotly_chart(fig3, theme='streamlit', use_container_width=True)
 
 
-    st.subheader('Qualidade vs Quantidade (Ensaios clínicos)')
+    st.subheader('Qualidade vs Quantidade (Ensaios Clínicos)')
 
     fig4 = make_subplots(rows=2, cols=1,
                         subplot_titles=("Quantidade por década","Nota Escala PEDro (Mediana)"))
@@ -570,5 +570,5 @@ with tab6:
 
     st.text("")
     st.header('Interesse de pesquisa')
-    st.subheader('Ensaios clínicos (1990-2022)')
+    st.subheader('Ensaios Clínicos (1990-2022)')
     st.video(entorse_tornozelo_vd)
