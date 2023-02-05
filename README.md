@@ -1,12 +1,9 @@
-<style>
-  button {
-    padding: 20px 40px;
-    font-size: 20px;
-  }
-</style>
-
-<a href="https://bruno-donato-webapp-pedro-webapp-pedro-j8fsah.streamlit.app/" class="custom-button">
+<button style="padding: 20px 40px; font-size: 20px;">
   Visit my Streamlit webapp
+</button>
+
+<a href="https://bruno-donato-webapp-pedro-webapp-pedro-j8fsah.streamlit.app/">
+  <button style="padding: 20px 40px; font-size: 20px;">Visit my Streamlit webapp</button>
 </a>
 
 ## Ciência de Fisioterapia Ortopédica
