@@ -11,31 +11,43 @@ cervicalgia_df1 = pd.read_feather('data/cervicalgia_df1.feather')
 cervicalgia_df2 = pd.read_feather('data/cervicalgia_df2.feather')
 cervicalgia_df3 = pd.read_feather('data/cervicalgia_df3.feather')
 cervicalgia_df4 = pd.read_feather('data/cervicalgia_df4.feather')
+cervicalgia_im01 = Image.open('data/cervicalgia_im01.png')
+cervicalgia_vd = open('data/cervicalgia_vd.mp4', 'rb')
 
 lombalgia_df1 = pd.read_feather('data/lombalgia_df1.feather')
 lombalgia_df2 = pd.read_feather('data/lombalgia_df2.feather')
 lombalgia_df3 = pd.read_feather('data/lombalgia_df3.feather')
 lombalgia_df4 = pd.read_feather('data/lombalgia_df4.feather')
+lombalgia_im01 = Image.open('data/lombalgia_im01.png')
+lombalgia_vd = open('data/lombalgia_vd.mp4', 'rb')
 
 dor_ombro_df1 = pd.read_feather('data/dor_ombro_df1.feather')
 dor_ombro_df2 = pd.read_feather('data/dor_ombro_df2.feather')
 dor_ombro_df3 = pd.read_feather('data/dor_ombro_df3.feather')
 dor_ombro_df4 = pd.read_feather('data/dor_ombro_df4.feather')
+dor_ombro_im01 = Image.open('data/dor_ombro_im01.png')
+dor_ombro_vd = open('data/dor_ombro_vd.mp4', 'rb')
 
 oa_joelho_df1 = pd.read_feather('data/oa_joelho_df1.feather')
 oa_joelho_df2 = pd.read_feather('data/oa_joelho_df2.feather')
 oa_joelho_df3 = pd.read_feather('data/oa_joelho_df3.feather')
 oa_joelho_df4 = pd.read_feather('data/oa_joelho_df4.feather')
+oa_joelho_im01 = Image.open('data/oa_joelho_im01.png')
+oa_joelho_vd = open('data/oa_joelho_vd.mp4', 'rb')
 
 dor_tornozelo_df1 = pd.read_feather('data/dor_tornozelo_df1.feather')
 dor_tornozelo_df2 = pd.read_feather('data/dor_tornozelo_df2.feather')
 dor_tornozelo_df3 = pd.read_feather('data/dor_tornozelo_df3.feather')
 dor_tornozelo_df4 = pd.read_feather('data/dor_tornozelo_df4.feather')
+dor_tornozelo_im01 = Image.open('data/dor_tornozelo_im01.png')
+dor_tornozelo_vd = open('data/dor_tornozelo_vd.mp4', 'rb')
 
 entorse_tornozelo_df1 = pd.read_feather('data/entorse_tornozelo_df1.feather')
 entorse_tornozelo_df2 = pd.read_feather('data/entorse_tornozelo_df2.feather')
 entorse_tornozelo_df3 = pd.read_feather('data/entorse_tornozelo_df3.feather')
 entorse_tornozelo_df4 = pd.read_feather('data/entorse_tornozelo_df4.feather')
+entorse_tornozelo_im01 = Image.open('data/entorse_tornozelo_im01.png')
+entorse_tornozelo_vd = open('data/entorse_tornozelo_vd.mp4', 'rb')
 
 
 st.title('Ciência e Fisioterapia Ortopédica')
@@ -136,6 +148,17 @@ with tab1:
     st.plotly_chart(fig4, theme='streamlit', use_container_width=True)
 
 
+    st.header('Temas e termos mais frequentes nos títulos')
+    st.subheader(f'Ensaios Clínicos ({cervicalgia_df1["ano"].min()}-2022)')
+    st.image(cervicalgia_im01)
+
+    st.text("")
+    st.header('Interesse de pesquisa')
+    st.subheader('Ensaios clínicos (1990-2022)')
+    st.video(cervicalgia_vd)
+
+
+
 with tab2:
     st.header('__LOMBALGIA__')
     st.subheader('Quantidade de estudos')
@@ -208,6 +231,17 @@ with tab2:
     st.plotly_chart(fig4, theme='streamlit', use_container_width=True)
 
 
+    st.header('Temas e termos mais frequentes nos títulos')
+    st.subheader(f'Ensaios Clínicos ({lombalgia_df1["ano"].min()}-2022)')
+    st.image(lombalgia_im01)
+
+
+    st.text("")
+    st.header('Interesse de pesquisa')
+    st.subheader('Ensaios clínicos (1980-2022)')
+    st.video(lombalgia_vd)
+
+
 with tab3:
     st.header('__DOR EM OMBRO__')
     st.subheader('Quantidade de estudos')
@@ -278,6 +312,17 @@ with tab3:
                     title_text=f"DOR OMBRO ({dor_ombro_df1['ano'].min()} - 2022)")
 
     st.plotly_chart(fig4, theme='streamlit', use_container_width=True)
+
+
+    st.header('Temas e termos mais frequentes nos títulos')
+    st.subheader(f'Ensaios Clínicos ({dor_ombro_df1["ano"].min()}-2022)')
+    st.image(dor_ombro_im01)
+
+
+    st.text("")
+    st.header('Interesse de pesquisa')
+    st.subheader('Ensaios clínicos (1990-2022)')
+    st.video(dor_ombro_vd)
     
     
 with tab4:
@@ -352,6 +397,16 @@ with tab4:
     st.plotly_chart(fig4, theme='streamlit', use_container_width=True)
 
 
+    st.header('Temas e termos mais frequentes nos títulos')
+    st.subheader(f'Ensaios Clínicos ({oa_joelho_df1["ano"].min()}-2022)')
+    st.image(oa_joelho_im01)
+
+    st.text("")
+    st.header('Interesse de pesquisa')
+    st.subheader('Ensaios clínicos (1990-2022)')
+    st.video(oa_joelho_vd)
+
+
 with tab5:
     st.header('__DOR TORNOZELO__')
 
@@ -423,6 +478,17 @@ with tab5:
                     title_text=f"DOR TORNOZELO ({dor_tornozelo_df1['ano'].min()} - 2022)")
 
     st.plotly_chart(fig4, theme='streamlit', use_container_width=True)
+
+
+    st.header('Temas e termos mais frequentes nos títulos')
+    st.subheader(f'Ensaios Clínicos ({dor_tornozelo_df1["ano"].min()}-2022)')
+    st.image(dor_tornozelo_im01)
+
+
+    st.text("")
+    st.header('Interesse de pesquisa')
+    st.subheader('Ensaios clínicos (1990-2022)')
+    st.video(dor_tornozelo_vd)
     
 
 with tab6:
@@ -495,3 +561,14 @@ with tab6:
                     title_text=f"ENTORSE TORNOZELO ({entorse_tornozelo_df1['ano'].min()} - 2022)")
 
     st.plotly_chart(fig4, theme='streamlit', use_container_width=True)
+
+
+    st.header('Temas e termos mais frequentes nos títulos')
+    st.subheader(f'Ensaios Clínicos ({entorse_tornozelo_df1["ano"].min()}-2022)')
+    st.image(entorse_tornozelo_im01)
+
+
+    st.text("")
+    st.header('Interesse de pesquisa')
+    st.subheader('Ensaios clínicos (1990-2022)')
+    st.video(entorse_tornozelo_vd)
