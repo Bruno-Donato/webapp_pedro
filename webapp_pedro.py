@@ -65,7 +65,7 @@ st.write('''
          artigos científicos de fisioterapia, abrangendo algumas décadas de produção científica (mais comumente a partir da decada de 1980).
          
          Os dados apresentados foram coletados utilizando a biblioteca ***__SELENIUM__*** e após a extração dos dados e características
-         dos estudos os dados foram limpos, organizados e análisados utilizando bibliotecas padrão de análise de dados, como ***__PANDAS__*** e
+         dos estudos os dados foram limpos, organizados e analisados utilizando bibliotecas padrão de análise de dados, como ***__PANDAS__*** e
          ***__NUMPY__***. Também foi necessário o uso de bibliotecas de processamento de texto como ***__NLTK__*** e ***__RE(REGEX)__***. 
          Para a visualização dos dados foram utilizadas as bibliotecas ***__MATPLOTLIB__***, ***__PLOTLY__***, ***__WORDCLOUD__*** e ***__BAR_CHART_RACE__***.
          ''')
