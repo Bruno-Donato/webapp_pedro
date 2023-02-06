@@ -96,8 +96,8 @@ with tab1:
 
 
     st.subheader('Qualidade Metodológica dos Ensaios Clínicos')
-    st.text('''
-            Para mensurar a qualidade dos ensaios clínicos foi proposta a Escala PEDro, um instrumento
+    st.write('''
+            Para mensurar a qualidade dos ensaios clínicos foi proposta a ***__Escala PEDro__***, um instrumento
             que avalia características necessárias para que um estudo possa ser considerado metodológicamente adequado, 
             consequentemente seus resultados e conclusões são mais confiáveis.
             A escala tem pontuação máxima de 10 e mínima de 0, sendo que estudos com pontuação mais alta indicam estudos
@@ -191,8 +191,8 @@ with tab2:
 
 
     st.subheader('Qualidade Metodológica dos Ensaios Clínicos')
-    st.text('''
-            Para mensurar a qualidade dos ensaios clínicos foi proposta a Escala PEDro, um instrumento
+    st.write('''
+            Para mensurar a qualidade dos ensaios clínicos foi proposta a ***__Escala PEDro__***, um instrumento
             que avalia características necessárias para que um estudo possa ser considerado metodológicamente adequado, 
             consequentemente seus resultados e conclusões são mais confiáveis.
             A escala tem pontuação máxima de 10 e mínima de 0, sendo que estudos com pontuação mais alta indicam estudos
@@ -286,8 +286,8 @@ with tab3:
 
 
     st.subheader('Qualidade Metodológica dos Ensaios Clínicos')
-    st.text('''
-            Para mensurar a qualidade dos ensaios clínicos foi proposta a Escala PEDro, um instrumento
+    st.write('''
+            Para mensurar a qualidade dos ensaios clínicos foi proposta a ***__Escala PEDro__***, um instrumento
             que avalia características necessárias para que um estudo possa ser considerado metodológicamente adequado, 
             consequentemente seus resultados e conclusões são mais confiáveis.
             A escala tem pontuação máxima de 10 e mínima de 0, sendo que estudos com pontuação mais alta indicam estudos
@@ -381,8 +381,8 @@ with tab4:
 
 
     st.subheader('Qualidade Metodológica dos Ensaios Clínicos')
-    st.text('''
-            Para mensurar a qualidade dos ensaios clínicos foi proposta a Escala PEDro, um instrumento
+    st.write('''
+            Para mensurar a qualidade dos ensaios clínicos foi proposta a ***__Escala PEDro__***, um instrumento
             que avalia características necessárias para que um estudo possa ser considerado metodológicamente adequado, 
             consequentemente seus resultados e conclusões são mais confiáveis.
             A escala tem pontuação máxima de 10 e mínima de 0, sendo que estudos com pontuação mais alta indicam estudos
@@ -476,8 +476,8 @@ with tab5:
 
 
     st.subheader('Qualidade Metodológica dos Ensaios Clínicos')
-    st.text('''
-            Para mensurar a qualidade dos ensaios clínicos foi proposta a Escala PEDro, um instrumento
+    st.write('''
+            Para mensurar a qualidade dos ensaios clínicos foi proposta a ***__Escala PEDro__***, um instrumento
             que avalia características necessárias para que um estudo possa ser considerado metodológicamente adequado, 
             consequentemente seus resultados e conclusões são mais confiáveis.
             A escala tem pontuação máxima de 10 e mínima de 0, sendo que estudos com pontuação mais alta indicam estudos
@@ -571,8 +571,8 @@ with tab6:
 
 
     st.subheader('Qualidade Metodológica dos Ensaios Clínicos')
-    st.text('''
-            Para mensurar a qualidade dos ensaios clínicos foi proposta a Escala PEDro, um instrumento
+    st.write('''
+            Para mensurar a qualidade dos ensaios clínicos foi proposta a ***__Escala PEDro__***, um instrumento
             que avalia características necessárias para que um estudo possa ser considerado metodológicamente adequado, 
             consequentemente seus resultados e conclusões são mais confiáveis.
             A escala tem pontuação máxima de 10 e mínima de 0, sendo que estudos com pontuação mais alta indicam estudos
