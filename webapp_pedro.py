@@ -95,7 +95,14 @@ with tab1:
     st.plotly_chart(fig, theme='streamlit', use_container_width=True)
 
 
-    st.subheader('Qualidade dos estudos (Ensaios Clínicos)')
+    st.subheader('Qualidade Metodológica dos Ensaios Clínicos')
+    st.text('''
+            Para mensurar a qualidade dos ensaios clínicos foi proposta a ***__Escala PEDro__***, um instrumento
+            que avalia características necessárias para que um estudo possa ser considerado metodológicamente adequado, 
+            consequentemente seus resultados e conclusões são mais confiáveis.
+            A escala tem pontuação máxima de 10 e mínima de 0, sendo que estudos com pontuação mais alta indicam estudos
+            com melhores metodologias. 
+            ''')
 
     fig2 = px.histogram(data_frame=cervicalgia_df2, x="escala pedro", histnorm='percent', 
                         title=f'CERVICALGIA ({cervicalgia_df2["ano"].min()} - 2022): Qualidade de {cervicalgia_df2.shape[0]} ensaios clínicos')
@@ -108,7 +115,12 @@ with tab1:
         font=dict(size=13))
 
     st.plotly_chart(fig2, theme='streamlit', use_container_width=True)
-
+    
+    
+    st.write('''
+             Nessa análise foi estipulado que ensaios clínicos com nota até 6 eram considerados de baixa qualidade 
+             metodológica, e os com nota 7 ou mais foram considerados de alta qualidade metodológica.
+             ''')
 
     fig3 = px.bar(cervicalgia_df3, x='decada', y='quantidade', 
                 color='qualidade' , color_discrete_sequence=["red", "blue"],
@@ -153,7 +165,7 @@ with tab1:
     st.image(cervicalgia_im01)
 
     st.text("")
-    st.header('Interesse de pesquisa')
+    st.header('Temas e termos de interesse de pesquisa')
     st.subheader('Ensaios Clínicos (1990-2022)')
     st.video(cervicalgia_vd)
 
@@ -178,7 +190,14 @@ with tab2:
     st.plotly_chart(fig, theme='streamlit', use_container_width=True)
 
 
-    st.subheader('Qualidade dos estudos (Ensaios Clínicos)')
+    st.subheader('Qualidade Metodológica dos Ensaios Clínicos')
+    st.text('''
+            Para mensurar a qualidade dos ensaios clínicos foi proposta a ***__Escala PEDro__***, um instrumento
+            que avalia características necessárias para que um estudo possa ser considerado metodológicamente adequado, 
+            consequentemente seus resultados e conclusões são mais confiáveis.
+            A escala tem pontuação máxima de 10 e mínima de 0, sendo que estudos com pontuação mais alta indicam estudos
+            com melhores metodologias. 
+            ''')
 
     fig2 = px.histogram(data_frame=lombalgia_df2, x="escala pedro", histnorm='percent', 
                         title=f'LOMBALGIA ({lombalgia_df2["ano"].min()} - 2022): Qualidade de {lombalgia_df2.shape[0]} ensaios clínicos')
@@ -192,6 +211,11 @@ with tab2:
 
     st.plotly_chart(fig2, theme='streamlit', use_container_width=True)
 
+
+    st.write('''
+             Nessa análise foi estipulado que ensaios clínicos com nota até 6 eram considerados de baixa qualidade 
+             metodológica, e os com nota 7 ou mais foram considerados de alta qualidade metodológica.
+             ''')
 
     fig3 = px.bar(lombalgia_df3, x='decada', y='quantidade', 
                 color='qualidade' , color_discrete_sequence=["red", "blue"],
@@ -237,7 +261,7 @@ with tab2:
 
 
     st.text("")
-    st.header('Interesse de pesquisa')
+    st.header('Temas e termos de interesse de pesquisa')
     st.subheader('Ensaios Clínicos (1980-2022)')
     st.video(lombalgia_vd)
 
@@ -261,7 +285,14 @@ with tab3:
     st.plotly_chart(fig, theme='streamlit', use_container_width=True)
 
 
-    st.subheader('Qualidade dos estudos (Ensaios Clínicos)')
+    st.subheader('Qualidade Metodológica dos Ensaios Clínicos')
+    st.text('''
+            Para mensurar a qualidade dos ensaios clínicos foi proposta a ***__Escala PEDro__***, um instrumento
+            que avalia características necessárias para que um estudo possa ser considerado metodológicamente adequado, 
+            consequentemente seus resultados e conclusões são mais confiáveis.
+            A escala tem pontuação máxima de 10 e mínima de 0, sendo que estudos com pontuação mais alta indicam estudos
+            com melhores metodologias. 
+            ''')
 
     fig2 = px.histogram(data_frame=dor_ombro_df2, x="escala pedro", histnorm='percent', 
                         title=f'DOR OMBRO ({dor_ombro_df2["ano"].min()} - 2022): Qualidade de {dor_ombro_df2.shape[0]} ensaios clínicos')
@@ -274,8 +305,13 @@ with tab3:
         font=dict(size=13))
 
     st.plotly_chart(fig2, theme='streamlit', use_container_width=True)
-
-
+    
+    
+    st.write('''
+             Nessa análise foi estipulado que ensaios clínicos com nota até 6 eram considerados de baixa qualidade 
+             metodológica, e os com nota 7 ou mais foram considerados de alta qualidade metodológica.
+             ''')
+    
     fig3 = px.bar(dor_ombro_df3, x='decada', y='quantidade', 
                 color='qualidade' , color_discrete_sequence=["red", "blue"],
                 title=f"DOR OMBRO: Qualidade dos ensaios clínicos")
@@ -320,7 +356,7 @@ with tab3:
 
 
     st.text("")
-    st.header('Interesse de pesquisa')
+    st.header('Temas e termos de interesse de pesquisa')
     st.subheader('Ensaios Clínicos (1990-2022)')
     st.video(dor_ombro_vd)
     
@@ -344,7 +380,14 @@ with tab4:
     st.plotly_chart(fig, theme='streamlit', use_container_width=True)
 
 
-    st.subheader('Qualidade dos estudos (Ensaios Clínicos)')
+    st.subheader('Qualidade Metodológica dos Ensaios Clínicos')
+    st.text('''
+            Para mensurar a qualidade dos ensaios clínicos foi proposta a ***__Escala PEDro__***, um instrumento
+            que avalia características necessárias para que um estudo possa ser considerado metodológicamente adequado, 
+            consequentemente seus resultados e conclusões são mais confiáveis.
+            A escala tem pontuação máxima de 10 e mínima de 0, sendo que estudos com pontuação mais alta indicam estudos
+            com melhores metodologias. 
+            ''')
 
     fig2 = px.histogram(data_frame=oa_joelho_df2, x="escala pedro", histnorm='percent', 
                         title=f'OA JOELHO ({oa_joelho_df2["ano"].min()} - 2022): Qualidade de {oa_joelho_df2.shape[0]} ensaios clínicos')
@@ -357,7 +400,12 @@ with tab4:
         font=dict(size=13))
 
     st.plotly_chart(fig2, theme='streamlit', use_container_width=True)
-
+    
+    
+    st.write('''
+             Nessa análise foi estipulado que ensaios clínicos com nota até 6 eram considerados de baixa qualidade 
+             metodológica, e os com nota 7 ou mais foram considerados de alta qualidade metodológica.
+             ''')
 
     fig3 = px.bar(oa_joelho_df3, x='decada', y='quantidade', 
                 color='qualidade' , color_discrete_sequence=["red", "blue"],
@@ -402,7 +450,7 @@ with tab4:
     st.image(oa_joelho_im01)
 
     st.text("")
-    st.header('Interesse de pesquisa')
+    st.header('Temas e termos de interesse de pesquisa')
     st.subheader('Ensaios Clínicos (1990-2022)')
     st.video(oa_joelho_vd)
 
@@ -427,7 +475,14 @@ with tab5:
     st.plotly_chart(fig, theme='streamlit', use_container_width=True)
 
 
-    st.subheader('Qualidade dos estudos (Ensaios Clínicos)')
+    st.subheader('Qualidade Metodológica dos Ensaios Clínicos')
+    st.text('''
+            Para mensurar a qualidade dos ensaios clínicos foi proposta a ***__Escala PEDro__***, um instrumento
+            que avalia características necessárias para que um estudo possa ser considerado metodológicamente adequado, 
+            consequentemente seus resultados e conclusões são mais confiáveis.
+            A escala tem pontuação máxima de 10 e mínima de 0, sendo que estudos com pontuação mais alta indicam estudos
+            com melhores metodologias. 
+            ''')
 
     fig2 = px.histogram(data_frame=dor_tornozelo_df2, x="escala pedro", histnorm='percent', 
                         title=f'DOR TORNOZELO ({dor_tornozelo_df2["ano"].min()} - 2022): Qualidade de {dor_tornozelo_df2.shape[0]} ensaios clínicos')
@@ -440,7 +495,12 @@ with tab5:
         font=dict(size=13))
 
     st.plotly_chart(fig2, theme='streamlit', use_container_width=True)
-
+    
+    
+    st.write('''
+             Nessa análise foi estipulado que ensaios clínicos com nota até 6 eram considerados de baixa qualidade 
+             metodológica, e os com nota 7 ou mais foram considerados de alta qualidade metodológica.
+             ''')
 
     fig3 = px.bar(dor_tornozelo_df3, x='decada', y='quantidade', 
                 color='qualidade' , color_discrete_sequence=["red", "blue"],
@@ -486,7 +546,7 @@ with tab5:
 
 
     st.text("")
-    st.header('Interesse de pesquisa')
+    st.header('Temas e termos de interesse de pesquisa')
     st.subheader('Ensaios Clínicos (1990-2022)')
     st.video(dor_tornozelo_vd)
     
@@ -510,7 +570,14 @@ with tab6:
     st.plotly_chart(fig, theme='streamlit', use_container_width=True)
 
 
-    st.subheader('Qualidade dos estudos (Ensaios Clínicos)')
+    st.subheader('Qualidade Metodológica dos Ensaios Clínicos')
+    st.text('''
+            Para mensurar a qualidade dos ensaios clínicos foi proposta a ***__Escala PEDro__***, um instrumento
+            que avalia características necessárias para que um estudo possa ser considerado metodológicamente adequado, 
+            consequentemente seus resultados e conclusões são mais confiáveis.
+            A escala tem pontuação máxima de 10 e mínima de 0, sendo que estudos com pontuação mais alta indicam estudos
+            com melhores metodologias. 
+            ''')
 
     fig2 = px.histogram(data_frame=entorse_tornozelo_df2, x="escala pedro", histnorm='percent', 
                         title=f'ENTORSE TORNOZELO ({entorse_tornozelo_df2["ano"].min()} - 2022): Qualidade de {entorse_tornozelo_df2.shape[0]} ensaios clínicos')
@@ -523,7 +590,12 @@ with tab6:
         font=dict(size=13))
 
     st.plotly_chart(fig2, theme='streamlit', use_container_width=True)
-
+    
+    
+    st.write('''
+             Nessa análise foi estipulado que ensaios clínicos com nota até 6 eram considerados de baixa qualidade 
+             metodológica, e os com nota 7 ou mais foram considerados de alta qualidade metodológica.
+             ''')
 
     fig3 = px.bar(entorse_tornozelo_df3, x='decada', y='quantidade', 
                 color='qualidade' , color_discrete_sequence=["red", "blue"],
@@ -569,6 +641,6 @@ with tab6:
 
 
     st.text("")
-    st.header('Interesse de pesquisa')
+    st.header('Temas e termos de interesse de pesquisa')
     st.subheader('Ensaios Clínicos (1990-2022)')
     st.video(entorse_tornozelo_vd)
