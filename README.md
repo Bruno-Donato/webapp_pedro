@@ -7,12 +7,12 @@
 
 #### Projeto completo, da extração de dados ao deploy, sobre produção científica na fisioterapia ortopédica.
 
-#### Visite outros projetos que auxiliaram na execução deste.
-
+### Visite outros projetos que auxiliaram na execução deste.
+#### Webscraping
 <a href="https://github.com/Bruno-Donato/webscraping_artigos_fisio">
   <button>Visite Webscraping PEDro</button>
 </a>
-
+#### Análise dos artigos
 <a href="https://github.com/Bruno-Donato/analise_artigos_fisio_web_scraping">
   <button>Visite Análise de artigos</button>
 </a>
