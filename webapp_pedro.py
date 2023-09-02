@@ -78,6 +78,7 @@ st.write('''
          ***__NUMPY__***. Também foi necessário o uso de bibliotecas de processamento de texto como ***__NLTK__*** e ***__RE(REGEX)__***. 
          Para a visualização dos dados foram utilizadas as bibliotecas ***__MATPLOTLIB__***, ***__PLOTLY__***, ***__WORDCLOUD__*** e 
          ***__BAR_CHART_RACE__***.
+         
          Todo o processo pode ser encontrado [AQUI](https://github.com/Bruno-Donato/webapp_pedro)
          ''')
 
