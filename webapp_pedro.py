@@ -74,9 +74,11 @@ st.write('''
          artigos científicos de fisioterapia, abrangendo algumas décadas de produção científica.
          
          Os dados apresentados foram coletados utilizando a biblioteca ***__SELENIUM__*** e após a extração dos dados e características
-         dos estudos os dados foram limpos, organizados e analisados utilizando bibliotecas padrão de análise de dados, como ***__PANDAS__*** e
+         dos estudos os dados foram limpos, organizados e analisados utilizando bibliotecas de análise de dados, como ***__PANDAS__*** e
          ***__NUMPY__***. Também foi necessário o uso de bibliotecas de processamento de texto como ***__NLTK__*** e ***__RE(REGEX)__***. 
-         Para a visualização dos dados foram utilizadas as bibliotecas ***__MATPLOTLIB__***, ***__PLOTLY__***, ***__WORDCLOUD__*** e ***__BAR_CHART_RACE__***.
+         Para a visualização dos dados foram utilizadas as bibliotecas ***__MATPLOTLIB__***, ***__PLOTLY__***, ***__WORDCLOUD__*** e 
+         ***__BAR_CHART_RACE__***.
+         Todo o processo pode ser encontrado [AQUI](https://github.com/Bruno-Donato/webapp_pedro)
          ''')
 
 st.subheader("SEÇÕES")
@@ -419,3 +421,4 @@ with tab6:
              com foco em desenvolver maior senso crítico e habilidades necessárias para consumir trabalhos e produções científicas na área da ortopedia. Isso permitiria melhor 
              fundamentação de tratamentos alinhados as melhores evidências científicas para entregar resultados eficazes e seguros para seus pacientes.
              ''')
+        
