@@ -17,7 +17,7 @@ Para que a PBE seja viável os profissionais da área precisam encontrar e coloc
 Para os profissionais da fisiotrapia a busca e identificação dessas publicações podem ser feitas em diversos repositórios e bases de dados, mas esse trabalho se tornou mais fácil com a idealização da Physioterapy Evidence Database (PEDro), um repositório especializado reunindo somente artigos de fisioterapia.<br>
 <br>
 Porém muito se discute sobre a qualidade das publicações e se elas são confiáveis para fundamentar as condutas terapeuticas utilizadas no tratamento dos pacientes.
-Nesse projeto analisaremos a quantidade e a qualidade de produções científicas na fisioterapia sobre as principais condições ortopédicas, para responder às seguintes perguntas:<br>
+Nesse projeto iremos encontrar e extrair informações relevantes das publicações científicas sobre as principais condições na fisioterapia ortopédica e analisaremos a quantidade e a qualidade dessas produções, para responder às seguintes perguntas:<br>
 <br>
 1.Como se deu a quantidade da produção científica ao longo das décadas?<br>
 2.As evidências científicas são confiáveis?<br>
